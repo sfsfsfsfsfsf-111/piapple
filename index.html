@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>反應力大挑戰 ⚡</title>
+    <title>AimLab</title>
     <style>
         :root {
             --bg-color: #000000;       /* 黑色背景 */
@@ -230,7 +230,7 @@
 
     <!-- 頁面 1：輸入名字 -->
     <div id="pageLogin" class="page active">
-        <h1>⚡ 反應力大挑戰</h1>
+        <h1>AimLab</h1>
         <p>請輸入你的名字以加入排行榜：</p>
         <input type="text" id="usernameInput" placeholder="輸入玩家名稱..." maxlength="10">
         <button onclick="login()">進入主頁</button>
@@ -238,7 +238,7 @@
 
     <!-- 頁面 2：主功能表 -->
     <div id="pageMenu" class="page">
-        <h1>🎮 遊戲主選單</h1>
+        <h1>主選單</h1>
         <p>當前玩家：<span id="playerNameDisplay" style="font-weight:bold; color:#ff7675;"></span></p>
         <button onclick="switchPage('pageGame'); startGame();">開始遊戲</button>
         <button onclick="switchPage('pageLeaderboard'); showLeaderboard();">查看排行榜</button>
@@ -246,7 +246,7 @@
 
     <!-- 頁面 3：排行榜 -->
     <div id="pageLeaderboard" class="page">
-        <h1>🏆 全球挑戰排行榜</h1>
+        <h1>排行榜</h1>
         <ul id="leaderboardList" class="leaderboard-list"></ul>
         <button onclick="switchPage('pageMenu')">返回主選單</button>
     </div>
@@ -275,12 +275,12 @@
                 
                 <!-- 預留的畫作圖片位置 -->
                 <div class="letter-photo-zone">
-                    <p style="color: #888888; font-size: 13px; margin-bottom: 10px;">👇 下方為預留的畫作位置（後續可自行更換連結）</p>
+                    <p style="color: #888888; font-size: 13px; margin-bottom: 10px;">Happy Brithday</p>
                     <img id="birthdayGiftImage" src="https://unsplash.com" alt="生日禮物插畫">
                 </div>
             </div>
             
-            <p style="font-size: 11px; color: #999999; margin-top: 15px; text-align: center;">💡 溫馨提示：上方信件內容與圖片可上下滑動滾動</p>
+            <p style="font-size: 11px; color: #999999; margin-top: 15px; text-align: center;">生日禮物</p>
         </div>
     </div>
 
